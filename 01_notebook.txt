@@ -1,0 +1,12 @@
+
+main(){}; / colocar o programa lá dentro
+
+
+float / tipo de variável que usa casas decimais
+
+
+double / mesma coisa do float, mas ele aceita de 10 a 15 casas após a vírgula
+
+
+system("PAUSE");
+    return 0; / faz uma pausa no código
