@@ -15,36 +15,17 @@ main()
     char carac1,
         carac2;
 
-
     printf("Digite um caractere depois aperte ENTER :\n");
     scanf("%c", &carac1);
     printf("Digite um caractere depois aperte ENTER :\n");
     scanf("%c", &carac1);
-    printf("O caractere digitado foi %c\n", chr);
+    printf("O caractere digitado foi %c\n", carac2);
 
     system("PAUSE");
     return 0;
-
-
 }
 /* end main */
 /*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -67,21 +48,6 @@ b8b    Y88888888P    d8Y
     `"'  O88888O '"´
            `8´
             .
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
