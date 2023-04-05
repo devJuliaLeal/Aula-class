@@ -13,13 +13,19 @@
 /* --- Função Principal --- */
 main()
 {
-    int  = ;
+    float temperatura;
 
-    printf(" ");
-    scanf("%d", &);
-    
+    printf("digite a temperatura em graus Celsius:");
+    scanf("%f", &temperatura);
 
-    
+    if (temperatura >= 50.0)
+    {
+        printf("Alerta, temperatura elevada.\n");
+    }
+    else
+    {
+        printf("Temperatura normal.\n");
+    }
 
 } /* end main */
 

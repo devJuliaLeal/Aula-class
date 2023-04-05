@@ -13,13 +13,16 @@
 /* --- Função Principal --- */
 main()
 {
-    int  = ;
+    char teste1 = 0,
+         teste2 = 1,
+         teste3 = 23,
+         teste4 = 97;
 
-    printf(" ");
-    scanf("%d", &);
-    
+    int var = 0;
 
-    
+    printf("O resultado : %d\n", var == 10);
+    var = 10;
+    printf("O resultado : %d\n", var == 10);
 
 } /* end main */
 

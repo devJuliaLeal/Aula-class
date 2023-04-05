@@ -13,13 +13,10 @@
 /* --- Função Principal --- */
 main()
 {
-    int  = ;
+    int opA = 5,
+        opB = 5;
 
-    printf(" ");
-    scanf("%d", &);
-    
-
-    
+    printf("\n\n %d\n %d\n %d\n %d\n %d\n %d\n", opA == opB, opA > opB, opA >= opB, opA < opB, opA <= opB, opA != opB);
 
 } /* end main */
 

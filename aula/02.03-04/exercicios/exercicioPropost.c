@@ -13,13 +13,28 @@
 /* --- Função Principal --- */
 main()
 {
-    int  = ;
+    int opA,
+        opB;
 
-    printf(" ");
-    scanf("%d", &);
-    
+    printf("Digite um valor:\n");
+    scanf("%d", &opA);
 
-    
+    printf("Digite outro valor:\n");
+    scanf("%d", &opB);
+
+    if (opA == opB)
+    {
+        printf("Sao iguais");
+    }
+
+    if (opA > opB)
+    {
+        printf("A e maior que B");
+    }
+    if (opA > opB)
+    {
+        printf("A e maior que B");
+    }
 
 } /* end main */
 

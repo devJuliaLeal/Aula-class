@@ -13,13 +13,19 @@
 /* --- Função Principal --- */
 main()
 {
-    int  = ;
+    float salario, vendas;
+    printf("Informe o salario R$:");
+    scanf("%f", &salario);
+    printf("Informe o valor de vendas em R$:");
+    scanf("%f", &vendas);
 
-    printf(" ");
-    scanf("%d", &);
-    
+    if (vendas > 10000.0)
+        printf("O salario foi %.2f", salario = salario + (salario / 100.0 * 10.0));
 
-    
+    else
+    {
+        printf("O salario foi de R$: %.2f", salario);
+    }
 
 } /* end main */
 

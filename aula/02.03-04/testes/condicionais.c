@@ -13,13 +13,17 @@
 /* --- Função Principal --- */
 main()
 {
-    int  = ;
+    int var_a = 3,
+        var_b = 4;
 
-    printf(" ");
-    scanf("%d", &);
-    
-
-    
+    if (var_a == var_b)
+    {
+        printf("as variaveis sao iguais\n");
+    }
+    else
+    {
+        printf("as variaveis sao diferentes\n");
+    }
 
 } /* end main */
 

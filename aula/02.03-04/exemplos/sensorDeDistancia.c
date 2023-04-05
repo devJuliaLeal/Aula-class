@@ -13,13 +13,21 @@
 /* --- Função Principal --- */
 main()
 {
-    int  = ;
+    int dist,
+        temp = 0;
 
-    printf(" ");
-    scanf("%d", &);
-    
+    printf("Entre com a distancia em cm:");
+    scanf("%d", &dist);
 
-    
+    if (dist <= 25)
+    {
+        printf("Robo desvia obstaculo.\n");
+        temp = dist;
+    }
+    if (temp != 0)
+    {
+        printf("O robo detectou um obstaculo.\n");
+    }
 
 } /* end main */
 

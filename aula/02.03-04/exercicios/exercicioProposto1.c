@@ -13,13 +13,25 @@
 /* --- Função Principal --- */
 main()
 {
-    int  = ;
+    int num1,
+        num2;
 
-    printf(" ");
-    scanf("%d", &);
-    
+    printf("Forneca um numero ");
+    scanf("%d", &num1);
+    printf("O numero que voce fornecou e %d\n", num1);
 
-    
+    printf("Forneca outro numero");
+    scanf("%d", &num2);
+    printf("O numero que voce fornecou e %d\n", num2);
+
+    if (num1 == num2)
+    {
+        printf("Os numeros sao iguais");
+    }
+    else
+    {
+        printf("Os numeros sao diferentes");
+    }
 
 } /* end main */
 

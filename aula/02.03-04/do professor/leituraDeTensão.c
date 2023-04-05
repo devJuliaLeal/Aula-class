@@ -13,13 +13,14 @@
 /* --- Função Principal --- */
 main()
 {
-    int  = ;
+    int val_ADC;
+    float volts;
 
-    printf(" ");
-    scanf("%d", &);
-    
+    printf("Inserir um valor de ADC entre 0 e 1023:\n");
+    scanf("%d", &val_ADC);
+    volts = ((float)val_ADC * 5 / 1023);
 
-    
+    printf("A tensao lida foi: %.2fV\n", volts);
 
 } /* end main */
 
