@@ -24,7 +24,7 @@ main()
 
     if (temCarro == 'N' && 18 <= idade <= 50)
     {
-        printf("Você recebe 500 reais");
+        printf("Voce recebe 500 reais");
     }
     else
     {
