@@ -13,7 +13,7 @@
 /* --- Função Principal --- */
 main()
 {
-    int idade = 0;
+    int idade;
     char temCarro;
 
     printf("Digite sua idade:", idade);
@@ -22,14 +22,14 @@ main()
     printf("Voce tem carro? (responda com S ou N)\n", temCarro);
     scanf("%s", &temCarro);
 
-    if (temCarro == 'N' && 18 <= idade <= 50)
+    if (temCarro == 'N' && 18 < idade && idade < 50)
     {
         printf("Voce recebe 500 reais");
-    }
+    } /*end if*/
     else
     {
         printf("Voce recebe 200 reais");
-    }
+    } /*end else*/
 
 } /* end main */
 
